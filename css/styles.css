@@ -100,15 +100,6 @@ blockquote {
     background-color: white;
 }
 
-/*Footer for reviews - added by Shubhi*/
-.panel-footer-r{
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    background-color: white;
-    margin-left: 4.20cm;
-}
 
 /*hights tags in projects */
 .label{
