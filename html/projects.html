@@ -39,10 +39,24 @@
     </blockquote>
     <legend>A peek into some of my projects</legend>
     <div class="panel-group">
-             <div class="panel panel-default">
+        <div class="panel panel-default">
+            <div class="panel-heading">Entity Extraction and Network Analysis</div>
+            <div class="panel-body">
+                <p>  The objective of this project was to analyze massive unstructured textual data by developing a model to detect the social network hidden in the data. The network was identified on the basis of entity document co-occurrence. Further the most important people of the network were identified using degree centrality. The data used was a set of political articles scraped from a news website. Fuzzywuzzy a Python library, was used for the purpose of entity resolution.
+                </p>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-primary">Python</span>&nbsp;&nbsp;
+                <span class="label label-primary">Stanford Core NLP</span>&nbsp;&nbsp;
+                <span class="label label-primary">Fuzzywuzzy</span>&nbsp;&nbsp;
+                <span class="label label-primary">Networkx</span>&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>    
+        <div class="panel panel-default">
             <div class="panel-heading">Topic Modelling</div>
             <div class="panel-body">
-                <p> This project involved the development of a model which identified and grouped documents by inferring the underlying topic for each document. For this purpose I used the rather famous Latent Dirichlet Allocation algorithm to cluster the similar documents together in terms of their content.   
+                <p> Developed an unsupervised learning model which inferred the underlying thematic structure for each document wherein a document can be about multiple topics at once. This mixture model was developed using Latent Dirichlet Allocation algorithm. Further documents with similar topic representations were grouped together and a recommendation system within the model was integrated by evaluating the similarity between topic distributions of documents. The recommendations generated were much more accurate than the one's generated using cosine similarity
                 </p>
             </div>
             <div class="panel-footer">
